@@ -1,9 +1,26 @@
 import React from 'react'
+import Everything from './Everything'
+import { ThemeProvider } from 'styled-components'
+import theme from './Theme'
 
-const App = () => (
-  <div>
-    Beep boop hi there, I&apos;m your personal assistant hehe
-  </div>
-)
+
+
+
+
+
+
+
+
+const App = () => {
+  
+  
+  return <ThemeProvider theme={theme}>
+
+      <Everything />
+
+    </ThemeProvider>
+  
+    
+}
 
 export default App

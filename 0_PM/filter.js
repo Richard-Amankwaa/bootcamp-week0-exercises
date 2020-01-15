@@ -8,12 +8,20 @@ const assert = require('assert')
 
 // TODO
 const multOf7 = el => {
-
+    if ((el % 7) === 0) {
+        return true
+    }else{
+        return false
+    }
 };
 
 // TODO
 Array.prototype.filter = function(fun) {
-
+    const newArr = [];
+    this.forEach(element => {if (fun(element)){
+        newArr.push(element)
+    
+    }})
 };
 
 const arr = [7, 8, 15, 14, 13, 70, 44, 35, 88, 77, false, "7", "hi", null];

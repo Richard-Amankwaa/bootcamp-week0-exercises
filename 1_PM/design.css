@@ -1,0 +1,11 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    color: white;
+    background: url("https://www.chronicle.com//img/photos/biz/photo_68169_landscape_650x433.jpg");
+}
+h1 {
+    font-size: 100px;
+}
